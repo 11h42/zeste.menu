@@ -20,16 +20,22 @@ export default {
     return {
       items: [
         {
-          'date': 'lundi 08 février',
-          'entree': 'Ballotine',
-          'plat': 'Aiguillettes',
-          'desert': 'Brioche'
+          "date": "lundi 08 février",
+          "entree": "Ballotine au jambon cru et chèvre frais",
+          "plat": "Aiguillettes de poulet au curry salade de pâtes",
+          "desert": "Brioche façon pain perdu au citron"
         },
         {
-          'date': 'mardi 09 février',
-          'entree': 'Tartare',
-          'plat': 'Rôti',
-          'desert': 'Tarte'
+          "date": "mardi 09 février",
+          "entree": "Tartare de légumes et son crumble au parmesan",
+          "plat": "Rôti de porc en cocotte accompagné d'une ratatouille",
+          "desert": "Tarte au noix caramel beurre salé"
+        },
+        {
+          "date": "mercredi février",
+          "entree": "Salade de perles marines au crabe",
+          "plat": "Tarte au chèvre et aux épinards accompagnée d'une petite salade italienne",
+          "desert": "Nems banane chocolat"
         },
       ]
     }
