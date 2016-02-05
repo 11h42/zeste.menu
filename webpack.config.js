@@ -19,7 +19,7 @@ module.exports = {
                 test: /\.(png|jpe?g|gif)$/,
                 loader: 'url',
                 query: {
-                    limit: 10000,
+                    limit: 100000,
                     name: '[name].[ext]?[hash]'
                 }
             },
@@ -36,7 +36,7 @@ module.exports = {
         presets: ['es2015'],
         plugins: ['transform-runtime']
     }
-}
+};
 
 if (process.env.NODE_ENV === 'production') {
     module.exports.plugins = [
