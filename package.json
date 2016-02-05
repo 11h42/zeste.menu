@@ -1,21 +1,24 @@
 {
-  "name": "vue-hackernews",
+  "name": "zeste.menu",
   "version": "1.0.0",
-  "description": "HN clone with Vue.js using HN API",
+  "description": "",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot --no-info",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yyx990803/vue-hackernews.git"
+    "url": "https://github.com/11h42/zeste.menu.git"
   },
-  "author": "Evan You",
+  "authors": [
+    "Edouard Lopez",
+    "Guillaume Vincent"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yyx990803/vue-hackernews/issues"
+    "url": "https://github.com/11h42/zeste.menu/issues"
   },
-  "homepage": "https://github.com/yyx990803/vue-hackernews",
+  "homepage": "http://zeste.menu",
   "devDependencies": {
     "babel-core": "^6.1.21",
     "babel-loader": "^6.1.0",
@@ -24,7 +27,7 @@
     "babel-runtime": "^5.8.0",
     "cross-env": "^1.0.5",
     "css-loader": "^0.21.0",
- "url-loader": "^0.5.7",
+    "url-loader": "^0.5.7",
     "vue-hot-reload-api": "^1.2.0",
     "vue-html-loader": "^1.0.0",
     "vue-loader": "^8.0.0",
